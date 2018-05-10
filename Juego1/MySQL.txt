@@ -8,6 +8,15 @@ mysql -u miusuario -p
 phpmyadmin-ctl install
 https://proyecto-liclode.c9users.io/phpmyadmin/
 
+*********** GIT **************************
+echo "# proyectoDAW" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:Liclode/proyectoDAW.git
+git push -u origin master
+*********************************************
+
 7.- 
 use bdjuego;
 create table clientes (ID int, nombre varchar(40));
