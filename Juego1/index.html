@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Infinite Dungeon</title>
+    <link rel="shortcut icon" href="img/logo.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/miCss.css">
+    <script src="jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <!--<script src="popper.min.js"></script>-->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/miJS.js"></script>
+
+    <style>
+        
+    </style>
+
+</head>
+
+<body class="bg-dark">
+    <!-- Cabecera -->
+    <div class="container-fluid text-center display-4 bg-dark text-light border-top-0" id="cabecera">
+        <div class="row">
+            <div class="col">
+                <p>~ Infinite Dungeon ~</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contenido -->
+    <div class="container-fluid">
+        <div class="row">
+            <!-- columna izq -->
+            <div class="col-md-1">
+
+            </div>
+            <!-- columna centro -->
+            <div class="col-md-10 text-center">
+                <!-- CONTENIDO -->
+                <!-- Menu -->
+                <div id="menuJuego" class="row">
+                    <div class="col-md-3 col-3 border bg-primary">
+                        <button id="menu-misiones" type="button" class="btn btn-primary btn-lg btn-block">Mapa</button>
+                    </div>
+                    <div class="col-md-3 col-3 border bg-primary">
+                        <button id="menu-personaje" type="button" class="btn btn-primary btn-lg btn-block">Personaje</button>
+                    </div>
+                    <div class="col-md-3 col-3 border bg-primary">
+                        <button id="menu-tienda" type="button" class="btn btn-primary btn-lg btn-block">Tienda</button>
+                    </div>
+                    <div class="col-md-3 col-3 border bg-primary">
+                        <button id="menu-inventario" type="button" class="btn btn-primary btn-lg btn-block">Inventario</button>
+                    </div>
+                </div>
+                <!--/-----------------------JUEGO--------------------------------------/-->
+                <div class="row border align-items-center pt-3" id="juego">
+                    <div class="col" id="inicioJuego">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div class="text-light">
+                            <!--FORMULARIO DE ENTRADA-->
+                            <form>
+                                <div class="form-group row justify-content-center">
+                                    <div class="col-4">
+                                      <input type="text" class="form-control" id="inputUsuario" placeholder="Usuario del jugador" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row justify-content-center">
+                                    <div class="col-4">
+                                      <input type="password" class="form-control" id="inputPass" placeholder="Contraseña del jugador" required>
+                                    </div>
+                                </div>
+                                <div class="form-group row justify-content-center">
+                                    <label for="staticEmail" class="col-2 col-form-label">(Si ya tienes usuario) --></label>
+                                    <div class="col-2">
+                                      <button id="btnEmpezarJuego" type="button" class="btn btn-danger">Empezar a jugar</button>
+                                    </div>
+                                </div>
+                                <div class="form-group row justify-content-center">
+                                    <label for="staticEmail" class="col-2 col-form-label">(Si no tienes usuario) --></label>
+                                    <div class="col-2">
+                                      <button id="btnRegistrarse" type="button" class="btn btn-danger">Registrarse</button>
+                                    </div>
+                                </div>
+                            </form>
+                            
+                        </div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <!-- Modal -->
+                    <!--<div class="modal fade" id="myModal" role="dialog">-->
+                    <!--    <div class="modal-dialog">-->
+
+                            <!-- Modal content-->
+                    <!--        <div class="modal-content">-->
+                    <!--            <div class="modal-header">-->
+                    <!--                <h4 class="modal-title">Tutorial - Ventana de estado</h4>-->
+                    <!--                <button type="button" class="close" data-dismiss="modal">&times;</button>-->
+                    <!--            </div>-->
+                    <!--            <div class="modal-body">-->
+                    <!--                <p>Aqui podras ver tus estadísticas y aumentarlas mas adelante,</p>-->
+                    <!--                <p>Para aumentar tus estadísticas usaras los 'Puntos Disponibles'.</p>-->
+                    <!--                <p>También puedes ver tus objetos equipados.</p>-->
+                    <!--            </div>-->
+                    <!--            <div class="modal-footer">-->
+                    <!--                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                    <!--            </div>-->
+                    <!--        </div>-->
+
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!-- FIN Modal -->
+                </div>
+                <!--/--------------------FIN JUEGO------------------------------------/-->
+
+            </div>
+            <!-- columna der -->
+            <div class="col-md-1">
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Pie de página -->
+    <div class="container-fluid text-center display-4 bg-dark text-light border-top-0" id="cabecera">
+        <div class="row">
+            <div class="col">
+                <hr>
+                <p>Proyecto 2DAW</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+-CREAR USUARIOS CON SU PJ EN BDD
+-CREAR ENEMIGOS EN LA BDD COS SUS STATS
+-HACER LOGIN Y SESION
+-MEJORAR CARGA DE MISIONES
+
+https://zerolympiustrife.deviantart.com/art/FFBE-Sephiroth-gif-2-708046874
+
+https://co.pinterest.com/pin/771945192350522316/
+
+http://bof.wikia.com/wiki/List_of_Breath_of_Fire_III_Enemies
+
+https://www.deviantart.com/digitalart/pixelart/popular-24-hours/

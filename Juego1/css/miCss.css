@@ -1,0 +1,134 @@
+/* MI CSS */
+
+        #juego {
+            background-image: url("../img/fondos/fondoinicio.jpg");
+            /*background-image: url("img/fondos/fondomadera.jpg");*/
+            /*background-image: url("img/fondos/fondomisiones.jpg");*/
+        }
+
+        #juego>div>div {
+            height: 100px;
+            /*border: solid black 1px;*/
+        }
+
+        #div1,
+        #div2 {
+            width: 70px;
+            height: 70px;
+            padding: 10px;
+            border: 1px solid #aaaaaa;
+        }
+
+        div.misiones>div {
+            border: solid gray 1px;
+            font-size: 20px;
+        }
+
+        #ataque,
+        #defensa,
+        #especial {
+            margin-top: 30px
+        }
+
+        .progress {
+            width: 70%;
+            margin: auto;
+        }
+
+        div.itemsPJ img {
+            height: 6rem;
+            border: solid black 1px;
+            background: url("../img/fondos/transparente.png");
+            box-shadow: 5px 5px 2px black;
+        }
+
+        #empezarJuego {
+
+            font-size: 30px;
+            -webkit-animation-name: example;
+            /* Safari 4.0 - 8.0 */
+            -webkit-animation-duration: 4s;
+            /* Safari 4.0 - 8.0 */
+            animation: infinite;
+            animation-name: example;
+            animation-duration: 4s;
+        }
+        
+        #btnEspecial{
+            background-image: url("../img/fondos/efectoLIMITE.gif");
+            color:white;
+        }
+        
+        #numMundo{
+            display: inline-block;
+        }
+        
+        
+        
+        
+        
+        @keyframes example {
+            0% {
+                font-size: 35px;
+            }
+            5% {
+                font-size: 38px;
+            }
+            10% {
+                font-size: 40px;
+            }
+            15% {
+                font-size: 43px;
+            }
+            20% {
+                font-size: 45px;
+            }
+            25% {
+                font-size: 48px;
+            }
+            30% {
+                font-size: 50px;
+            }
+            35% {
+                font-size: 53px;
+            }
+            40% {
+                font-size: 55px;
+            }
+            45% {
+                font-size: 58px;
+            }
+            50% {
+                font-size: 60px;
+            }
+            55% {
+                font-size: 58px;
+            }
+            60% {
+                font-size: 55px;
+            }
+            65% {
+                font-size: 53px;
+            }
+            70% {
+                font-size: 48px;
+            }
+            75% {
+                font-size: 45px;
+            }
+            80% {
+                font-size: 42px;
+            }
+            85% {
+                font-size: 38px;
+            }
+            90% {
+                font-size: 35px;
+            }
+            95% {
+                font-size: 32px;
+            }
+            100% {
+                font-size: 30px;
+            }
+        }

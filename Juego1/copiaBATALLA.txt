@@ -1,0 +1,89 @@
+
+                        <!-- ENEMIGOS -->
+                        <div class="col-md-2 col-2">
+                            <!-- ENEMIGO 1 -->
+                            <div id="posEnemigo1">
+                                <div class="progress">
+                                    <div id="vidaEnemigo1" class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
+                                </div>
+                                <img onclick="seleccionarEnemigo('posEnemigo1')" id="enemigo1" src="img/enemigo1.gif" style="height:5rem" class="img-fluid">
+                            </div>
+                            <!-- ENEMIGO 2 -->
+                            <div id="posEnemigo2">
+                                <div class="progress">
+                                    <div id="vidaEnemigo2" class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                </div>
+                                <img onclick="seleccionarEnemigo('posEnemigo2')" id="enemigo2" src="img/enemigo2.gif" style="height:5rem" class="img-fluid">
+                            </div>
+                            <!-- ENEMIGO 3 -->
+                            <div id="posEnemigo3">
+                                <div class="progress">
+                                    <div id="vidaEnemigo3" class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">30%</div>
+                                </div>
+                                <img onclick="seleccionarEnemigo('posEnemigo3')" id="enemigo3" src="img/enemigo3.gif" style="height:5rem" class="img-fluid">
+                            </div>
+                            <!-- ENEMIGO 4 -->
+                            <div id="posEnemigo4">
+                                <div class="progress">
+                                    <div id="vidaEnemigo4" class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                </div>
+                                <img onclick="seleccionarEnemigo('posEnemigo4')" id="enemigo4" src="img/enemigo4.gif" style="height:5rem" class="img-fluid">
+                            </div>
+                            <!-- ENEMIGO 5 -->
+                            <div id="posEnemigo5">
+                                <div class="progress">
+                                    <div id="vidaEnemigo5" class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">50%</div>
+                                </div>
+                                <img onclick="seleccionarEnemigo('posEnemigo5')" id="enemigo5" src="img/boss1.gif" style="height:5rem" class="img-fluid">
+                            </div>
+
+                        </div>
+                        <!-- ATACA ALIADO -->
+                        <div class="col-md-2 col-2">
+                            <div id="posEnemigo1A"></div>
+                            <div id="posEnemigo2A"></div>
+                            <div id="posEnemigo3A"></div>
+                            <div id="posEnemigo4A"></div>
+                            <div id="posEnemigo5A"></div>
+                        </div>
+                        <!-- CONTROL -->
+                        <div class="col-md-4 col-4">
+                            <div id=""></div>
+                        </div>
+                        <!-- ATACA ENEMIGO -->
+                        <div class="col-md-2 col-2">
+                            <div id="posAliado1A"></div>
+                            <div id="posAliado2A"></div>
+                            <div id="posAliado3A"></div>
+                            <div id="posAliado4A"></div>
+                            <div id="posAliado5A"></div>
+                        </div>
+                        <!-- ALIADOS -->
+                        <div class="col-md-2 col-2">
+                            <div id=""></div>
+                            <div id=""></div>
+                            <div id="posAliado1">
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                </div>
+                                <img src="img/pj1.gif" id="aliado1" style="height:5rem" class="img-fluid">
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+                                </div>
+                            </div>
+                            <div id=""></div>
+                            <div id=""></div>
+                        </div>
+                        <div class="container-fluid" style="background:url('img/fondo/fondometal.gif')">
+                            <div class="row border border-dark">
+                                <div class="col">
+                                    <div id="ataque"><button type="button" id="btnAtaque" class="btn btn-danger btn-lg btn-block" disabled>Ataque</button></div>
+                                </div>
+                                <div class="col">
+                                    <div id="defensa"><button type="button" id="btnDefensa" class="btn btn-info btn-lg btn-block" disabled>Defensa</button></div>
+                                </div>
+                                <div class="col">
+                                    <div id="especial"><button type="button" id="btnEspecial" class="btn btn-warning btn-lg btn-block" disabled>Especial</button></div>
+                                </div>
+                            </div>
+                        </div>

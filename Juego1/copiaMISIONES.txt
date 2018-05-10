@@ -1,0 +1,21 @@
+                        <div class="col misiones">
+                            <h2>~ Fase 1 ~</h2>
+                            <div><span class="badge badge-pill badge-primary">1º Misión</span><div><button type="button" id="mision1F1" class="btn btn-success">La Caza del 'Slime' / Dificultad (1)</button></div></div>
+                            <div><span class="badge badge-pill badge-primary">2º Misión</span><div><button type="button" id="mision2F1" class="btn btn-warning">La Caza del 'Ent Maldito' / Dificultad (1)</button></div></div>
+                            <div><span class="badge badge-pill badge-primary">3º Misión</span><div><button type="button" id="mision3F1" class="btn btn-warning">La Caza del 'Homunculo' / Dificultad (2)</button></div></div>
+                            <div><span class="badge badge-pill badge-primary">4º Misión</span><div><button type="button" id="mision4F1" class="btn btn-warning">La Caza del 'Zombie' / Dificultad (3)</button></div></div>
+                            <div><span class="badge badge-pill badge-primary">5º Misión</span><div><button type="button" id="mision5F1" class="btn btn-warning">Aparece el 1º BOSS / Dificultad (5)</button></div></div>
+                        </div>
+
+                        <div class="col misiones">
+                            <h2>~ Fase 2 ~</h2>
+                            <div><span class="badge badge-pill badge-primary">1º Misión</span><div><p>In progress...</p></div></div>
+                            <div><span class="badge badge-pill badge-primary">2º Misión</span><div><p>In progress...</p></div></div>
+                            <div><span class="badge badge-pill badge-primary">3º Misión</span><div><p>In progress...</p></div></div>
+                        </div>
+
+                        <div class="col misiones">
+                            <h2>~ Fase 3 ~</h2>
+                            <div><span class="badge badge-pill badge-primary">1º Misión</span><div><p>In progress...</p></div></div>
+                            <div><span class="badge badge-pill badge-primary">2º Misión</span><div><p>In progress...</p></div></div>
+                        </div>

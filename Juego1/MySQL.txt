@@ -1,0 +1,39 @@
+1.- Desde la línea de comandosde C9.io, arrancar la base de datos mysql:
+
+sudo service mysql start
+
+6.-
+mysql -u miusuario -p
+
+phpmyadmin-ctl install
+https://proyecto-liclode.c9users.io/phpmyadmin/
+
+7.- 
+use bdjuego;
+create table clientes (ID int, nombre varchar(40));
+insert into clientes values (1, 'Pepe');
+insert into clientes values (2, 'Antonio');
+insert into clientes values (3, 'Lucas');
+
+DELETE FROM 'nombre_tabla' WHERE '';
+
+ALTER TABLE Persons
+ADD PRIMARY KEY (ID);
+
+ALTER TABLE table_name
+ALTER COLUMN column_name datatype;
+
+ALTER TABLE table_name
+DROP COLUMN column_name;
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+//web --->  https://rincondecla.000webhostapp.com/
+
+//consulta 3 tablas
+SELECT tUsuarios.nombre, tObjetos.nombre 
+FROM tInventarios 
+INNER JOIN tObjetos ON tInventarios.idObjeto = tObjetos.idObjeto 
+INNER JOIN tUsuarios ON tInventarios.idUsuario = tUsuarios.idUsuario 
+WHERE tUsuarios.nombre='usu1';
